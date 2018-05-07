@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Exam statistics</title>
+</head>
+<body cz-shortcut-listen="true">
+
+    <div class="top">
+        <div class="exam">
+            <div class="exam-title">
+                Exam statistic
+              
+            </div>
+
+            <div class="exam-total">Total students: <span>0</span></div>
+
+            <div class="exam-passed clearfix">
+                <div class="exam-passed-text">passed</div>
+                <div class="right">
+                    <div class="exam-passed-count">0</div>
+                    <div class="exam-passed-percentage">0%</div>
+                </div>
+            </div>
+
+            <div class="exam-failed clearfix">
+                <div class="exam-failed-text">failed</div>
+                <div class="right clearfix">
+                    <div class="exam-failed-count">0</div>
+                    <div class="exam-failed-percentage">0%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="add">
+            <div class="add-container">
+                <select class="add-subject">
+                    <option value="-" selected="">-</option>
+                    <option value="web">Web</option>
+                    <option value="js">JavaScript</option>
+                    <option value="spa">SPA</option>
+                </select>
+                <input type="text" class="add-student-name" placeholder="Name surname">
+                <input type="number" class="add-grade" min="1" max="10" placeholder="Grade">
+                <button class="add-btn">ADD
+                </button>
+                <br>
+                <div class="errors"></div>
+            </div>
+        </div>
+
+        <div class="container clearfix">
+            <div class="passed">
+                <h2 class="passed-title">passed</h2>
+
+                <div class="passed-list">
+                </div>
+            </div>
+
+            <div class="failed">
+                <h2 class="failed-title">failed</h2>
+
+                <div class="failed-list">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/subject.js"></script>
+    <script src="./js/student.js"></script>
+    <script src="./js/exam.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="./js/app.js"></script>
+
+</body>
+    
+</html>
