@@ -3,12 +3,12 @@
 The web application displays statistics of student results in a single test period
 
 
-## **TECHNOLOGIES**
+### **TECHNOLOGIES**
 
 Languages: HTML5, CSS3, JavaScript (ES5)
 
 
-## **STRUCTURE OF EXAM STATISTIC**
+### **STRUCTURE OF EXAM STATISTIC**
 
 ```
 EXAM-STATISTIC/
@@ -28,7 +28,7 @@ EXAM-STATISTIC/
 index.html
 README.md
 ```
-## **SCREENSHOTS**
+### **SCREENSHOTS**
 
 ![alt text](https://raw.githubusercontent.com/mariaradovanovic/exam-statistic/master/img/home.png)
 
