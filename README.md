@@ -16,6 +16,9 @@ EXAM-STATISTIC/
     main.css
   img/
     back.png
+    home.png
+    onepassed.png
+    onefailed.png
   js/
     app.js
     exam.js
@@ -28,3 +31,9 @@ README.md
 ## **SCREENSHOTS**
 
 ![alt text](https://raw.githubusercontent.com/mariaradovanovic/exam-statistic/master/img/home.png)
+
+
+![alt text](https://raw.githubusercontent.com/mariaradovanovic/exam-statistic/master/img/onepassed.png)
+
+
+![alt text](https://raw.githubusercontent.com/mariaradovanovic/exam-statistic/master/img/onefailed.png)
