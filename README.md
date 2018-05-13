@@ -1,11 +1,12 @@
 ## **EXAM STATISTIC**
 
-The web application displays statistics of student results in a single test period
+Single page JavaScript application that helps keep track of students, courses and their grades during an examination period. Experiment project done at BIT (Belgrade Institute of Technology).
 
+[View Demo](https://mariaradovanovic.github.io/exam-statistic)
 
 ### **TECHNOLOGIES**
 
-Languages: HTML5, CSS3, JavaScript (ES5)
+HTML5, CSS3, JavaScript
 
 
 ### **STRUCTURE OF EXAM STATISTIC**
